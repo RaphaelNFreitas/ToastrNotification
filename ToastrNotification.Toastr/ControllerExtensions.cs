@@ -9,12 +9,12 @@ namespace ToastrNotification.Toastr
         /// Extension for an asp net mvc controller, applying the message functionality toastrs
         /// </summary>
         /// <param name="controller">The controller to which the extension occurs does not have to be referenced</param>
-        /// <param name="title"></param>
-        /// <param name="message"></param>
-        /// <param name="toastType"></param>
-        /// <param name="toastPosition"></param>
-        /// <param name="showCloseButton"></param>
-        /// <param name="newestOnTop"></param>
+        /// <param name="title">Title of the message to be displayed</param>
+        /// <param name="message">Text of the message to be displayed</param>
+        /// <param name="toastType">Which type of toast (success, alert, error, information)</param>
+        /// <param name="toastPosition">Where on the screen the toast should appear</param>
+        /// <param name="showCloseButton">If the close button should appear</param>
+        /// <param name="newestOnTop">Should appear the new toast goes up the previous one, holding a queue</param>
         /// <returns></returns>
         public static ToastMessage AddToastMessage(this Controller controller,
            string title,
