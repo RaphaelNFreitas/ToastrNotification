@@ -15,7 +15,7 @@ namespace ToastrNotification.Toastr
         /// <param name="toastPosition">Where on the screen the toast should appear</param>
         /// <param name="showCloseButton">If the close button should appear</param>
         /// <param name="newestOnTop">Should appear the new toast goes up the previous one, holding a queue</param>
-        /// <returns></returns>
+        /// <returns>Return the configured toast for the view</returns>
         public static ToastMessage AddToastMessage(this Controller controller,
            string title,
            string message,
